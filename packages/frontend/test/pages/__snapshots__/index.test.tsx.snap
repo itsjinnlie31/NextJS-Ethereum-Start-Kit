@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders index page 1`] = `
+Array [
+  <header>
+    <div
+      className="chakra-container css-tflc3m"
+    >
+      <div
+        className="css-caz4fq"
+      >
+        <div
+          className="css-1d6yn2k"
+        >
+          <a
+            className="chakra-link css-17k499z"
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            NftyPass Minting Example
+          </a>
+          <a
+            className="chakra-link css-17k499z"
+            href="/signature-example"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Signature Example
+          </a>
+        </div>
+        <div
+          className="css-zh0om4"
+        >
+          <button
+            className="chakra-button css-5c2176"
+            onClick={[Function]}
+            type="button"
+          >
+            Connect to a wallet
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <main>
+    <div
+      className="chakra-container css-tflc3m"
+    >
+      <h1
+        className="chakra-heading css-19idom"
+      >
+        NftyVillage - Next.js Ethereum Starter
+      </h1>
+      <a
+        className="chakra-button css-5c2176"
+        href="https://github.com/protokol/nextjs-eth-typescript-react-starter-kit"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Source code!
+      </a>
+      <p
+        className="chakra-text css-m7zdx2"
+      >
+        Connect your wallet first! This page only works on the RINKEBY Testnet or on a Local Chain.
+      </p>
+      <div
+        className="css-1l6flna"
+      >
+        <a
+          className="chakra-link css-0"
+          href="https://rinkeby.etherscan.io/address/0x8Ba5cE975a075Be7c170F6BA3f937Ed6E1dA0Ed2"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Contract Address: 
+          <br />
+          0x8Ba5cE975a075Be7c170F6BA3f937Ed6E1dA0Ed2
+           
+          <svg
+            className="chakra-icon css-2y6psj"
+            focusable={false}
+            viewBox="0 0 24 24"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeWidth="2"
+            >
+              <path
+                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+              />
+              <path
+                d="M15 3h6v6"
+              />
+              <path
+                d="M10 14L21 3"
+              />
+            </g>
+          </svg>
+        </a>
+        <hr
+          aria-orientation="horizontal"
+          className="chakra-divider css-47plks"
+        />
+        <div
+          className="css-0"
+        >
+          <p
+            className="chakra-text css-1ezsviu"
+          >
+            Token Price: 
+            
+          </p>
+          <button
+            className="chakra-button css-1wd94o"
+            onClick={[Function]}
+            type="button"
+          >
+            Fetch Token Minting Price
+          </button>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          className="chakra-divider css-47plks"
+        />
+        <div
+          className="css-0"
+        >
+          <p
+            className="chakra-text css-1ezsviu"
+          >
+            Minted supply: 
+            
+             | Maximum Supply: 
+            
+             
+          </p>
+          <button
+            className="chakra-button css-1wd94o"
+            onClick={[Function]}
+            type="button"
+          >
+            Fetch Data
+          </button>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          className="chakra-divider css-47plks"
+        />
+        <div
+          className="css-0"
+        >
+          <p
+            className="chakra-text css-19ug521"
+          >
+            Number of NftyPasses:
+          </p>
+          <div
+            className="chakra-numberinput css-1xcor6c"
+            value={1}
+          >
+            <input
+              aria-valuemax={5}
+              aria-valuemin={1}
+              aria-valuenow={1}
+              aria-valuetext="1"
+              autoComplete="off"
+              autoCorrect="off"
+              className="chakra-numberinput__field css-8atqhb"
+              inputMode="decimal"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              pattern="[0-9]*(.[0-9]+)?"
+              role="spinbutton"
+              type="text"
+              value={1}
+            />
+            <div
+              aria-hidden={true}
+              className="css-1j80trz"
+            >
+              <div
+                className="css-8bep6f"
+                disabled={false}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <svg
+                  className="chakra-icon css-onkibi"
+                  focusable={false}
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12.8,5.4c-0.377-0.504-1.223-0.504-1.6,0l-9,12c-0.228,0.303-0.264,0.708-0.095,1.047 C2.275,18.786,2.621,19,3,19h18c0.379,0,0.725-0.214,0.895-0.553c0.169-0.339,0.133-0.744-0.095-1.047L12.8,5.4z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-disabled={true}
+                className="css-8bep6f"
+                disabled={true}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <svg
+                  className="chakra-icon css-onkibi"
+                  focusable={false}
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21,5H3C2.621,5,2.275,5.214,2.105,5.553C1.937,5.892,1.973,6.297,2.2,6.6l9,12 c0.188,0.252,0.485,0.4,0.8,0.4s0.611-0.148,0.8-0.4l9-12c0.228-0.303,0.264-0.708,0.095-1.047C21.725,5.214,21.379,5,21,5z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <a
+            className="chakra-button css-pkkfac"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Mint/Buy Tokens
+          </a>
+        </div>
+        <div
+          className="css-0"
+        >
+          <a
+            className="chakra-link css-g89h0y"
+            href="https://rinkeby.etherscan.io/tx/-"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Transaction: 
+            -
+             
+            <svg
+              className="chakra-icon css-jq55xt"
+              focusable={false}
+              viewBox="0 0 24 24"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeWidth="2"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                />
+                <path
+                  d="M15 3h6v6"
+                />
+                <path
+                  d="M10 14L21 3"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          className="chakra-divider css-47plks"
+        />
+        <button
+          className="chakra-button css-5c2176"
+          onClick={[Function]}
+          type="button"
+        >
+          List my NftyPasses
+        </button>
+        <div
+          className="css-0"
+        >
+          <p
+            className="chakra-text css-eurvrn"
+          >
+            NftyPasses:
+             
+          </p>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          className="chakra-divider css-47plks"
+        />
+        <p
+          className="chakra-text css-1itv5e3"
+        >
+          This button only works on a Local Chain.
+        </p>
+        <button
+          className="chakra-button css-5c2176"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Send Funds From Local Hardhat Chain
+        </button>
+      </div>
+    </div>
+  </main>,
+  <footer>
+    <div
+      className="chakra-container css-45ingw"
+    >
+      <p
+        className="chakra-text css-0"
+      >
+        Footer
+      </p>
+    </div>
+  </footer>,
+]
+`;

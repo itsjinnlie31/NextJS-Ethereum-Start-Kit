@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-ethereum-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace frontend dev",
+    "build": "yarn workspace frontend build",
+    "start": "yarn workspace frontend start",
+    "chain": "yarn workspace hardhat chain",
+    "deploy": "yarn workspace hardhat deploy",
+    "deploy:rinkeby": "yarn workspace hardhat deploy:rinkeby",
+    "compile": "yarn workspace hardhat compile"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/hardhat",
+      "**/hardhat/**"
+    ]
+  }
+}

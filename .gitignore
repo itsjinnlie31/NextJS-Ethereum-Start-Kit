@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# IDEs
+.idea
+
+*.env
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+node_modules
+
+## Hardhat files ##
+packages/hardhat/*.txt
+packages/hardhat/cache
+packages/hardhat/abi
+packages/hardhat/artifacts
+packages/hardhat/types
+packages/hardhat/deployments
+packages/frontend/artifacts
+packages/frontend/types
+
+## Frontend Files ##
+# testing
+packages/frontend/coverage
+packages/react-app
+packages/subgraph
+# next.js
+packages/frontend/.next/
+packages/frontend/out/
+packages/frontend/deployments
+
+# production
+packages/frontend/build
+# contracts
+# packages/frontend/artifacts/*
