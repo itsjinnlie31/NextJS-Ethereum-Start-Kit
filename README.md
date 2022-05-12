@@ -18,7 +18,7 @@
 clone project:
 
 ```bash
-git clone https://github.com/protokol/nextjs-eth-typescript-react-starter-kit
+git clone https://github.com/itsjinnlie31/NextJS-Ethereum-Start-Kit.git
 cd nextjs-eth-typescript-react-starter-kit
 
 yarn install
